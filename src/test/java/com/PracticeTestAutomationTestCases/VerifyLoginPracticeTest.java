@@ -20,21 +20,19 @@ public class VerifyLoginPracticeTest {
 		
 		Reusability.capturesscreenshot(driver,"Step2. Logout to  Application");
 		
-	    driver = Helper.startBrowser("FF", "https://practicetestautomation.com/practice-test-login/");
-		Reusability.capturesscreenshot(driver,"Step1. Login to PracticeTestAutomation Application");
-		LoginPracticeAutomationTest loginPagePracticeAutomatio = PageFactory.initElements(driver,LoginPracticeAutomationTest.class);
-		loginPagePracticeAutomatio.login_EasyCal("8076995880", "gautam");
-		
-		Reusability.capturesscreenshot(driver,"Step2. Logout to  Application");
-		
-		driver = Helper.startBrowser("Edge", "https://practicetestautomation.com/practice-test-login/");
-		Reusability.capturesscreenshot(driver,"Step1. Login to PracticeTestAutomation Application");
-		LoginPracticeAutomationTest loginPagePracticeAutomationTes = PageFactory.initElements(driver,LoginPracticeAutomationTest.class);
-		loginPagePracticeAutomationTes.login_EasyCal("8076995880", "gautam");
-		
-		Reusability.capturesscreenshot(driver,"Step2. Logout to  Application");
-		
+//	    driver = Helper.startBrowser("FF", "https://practicetestautomation.com/practice-test-login/");
+//		Reusability.capturesscreenshot(driver,"Step1. Login to PracticeTestAutomation Application");
+//		LoginPracticeAutomationTest loginPagePracticeAutomatio = PageFactory.initElements(driver,LoginPracticeAutomationTest.class);
+//		loginPagePracticeAutomatio.login_EasyCal("8076995880", "gautam");
+//		
+//		Reusability.capturesscreenshot(driver,"Step2. Logout to  Application");
+//		
+//		driver = Helper.startBrowser("Edge", "https://practicetestautomation.com/practice-test-login/");
+//		Reusability.capturesscreenshot(driver,"Step1. Login to PracticeTestAutomation Application");
+//		LoginPracticeAutomationTest loginPagePracticeAutomationTes = PageFactory.initElements(driver,LoginPracticeAutomationTest.class);
+//		loginPagePracticeAutomationTes.login_EasyCal("8076995880", "gautam");
+//		
+//		Reusability.capturesscreenshot(driver,"Step2. Logout to  Application");	
 		
 	}
-
 }

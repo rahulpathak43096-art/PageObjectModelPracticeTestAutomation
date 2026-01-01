@@ -23,5 +23,4 @@ public class LoginPracticeAutomationTest {
 		password.sendKeys(pass);
 		Submit.click();
 	}
-
 }
